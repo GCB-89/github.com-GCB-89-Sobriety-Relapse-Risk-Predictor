@@ -1,0 +1,73 @@
+💡 Sobriety Support Relapse Predictor
+        By Gabreal Braxton 
+            6/7/2025
+
+This project uses real survey data to predict an individual’s risk of relapse into substance use based on emotional, behavioral, and recovery-related indicators.
+
+🔍 Project Purpose
+Help counselors identify clients at High, Medium, or Low relapse risk using key factors like:
+
+Self-rated well-being
+
+Past treatment history
+
+Doctor-advised treatment
+
+Current recovery status
+
+📁 What's Inside
+File	Description
+relapse_predictor.ipynb	Main notebook: loads data, trains model, and visualizes predictions
+NSDUH_2023_Tab.txt	Dataset (subset from national health survey)
+README.md	This file
+(Optional) charts/	Contains saved graphs and decision trees
+
+⚙️ How It Works
+Clean and filter the NSDUH dataset for recovery-relevant features
+
+Assign relapse risk levels based on scoring + patterns in the data
+
+Train a decision tree model
+
+Input client data via counselor interface
+
+View relapse risk prediction & helpful visuals
+
+👤 For Counselors
+Scroll to the Counselor Prediction Interface section in the notebook to:
+
+Enter basic health and recovery indicators
+
+Instantly view a relapse risk label + visual risk meter
+
+📈 Visuals Include:
+Feature importance charts
+
+Decision tree for transparency
+
+Risk-level gauge plot for client review
+
+✅ Requirements
+Python 3.10+
+
+pandas, matplotlib, seaborn, scikit-learn
+
+(Optional) Graphviz for detailed tree visualizations
+
+📚 Data Sources & References
+This project uses publicly available data from trusted behavioral health authorities:
+
+NSDUH 2023 Public Use File
+National Survey on Drug Use and Health (NSDUH)
+SAMHSA.gov/Data
+📄 NSDUH-2023 Codebook PDF
+
+Substance Abuse and Mental Health Services Administration (SAMHSA)
+https://www.samhsa.gov
+
+DSM-5 Reference for Risk Indicators
+Diagnostic and Statistical Manual of Mental Disorders (5th ed.) – American Psychiatric Association
+
+💬 Acknowledgments
+Created as a personal and academic project to explore how machine learning can support emotional intelligence and relapse prevention.
+This work is grounded in recovery values, human empathy, and technical transparency.
