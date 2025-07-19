@@ -1,5 +1,5 @@
 🧠 Relapse Risk Prediction: Data Preparation and Modeling
-This notebook walks through a complete pipeline for predicting relapse risk using SAMHSA survey data. It includes:
+This notebook walks through a complete pipeline for predicting relapse risk using SAMHSA survey data:
 
 📥 Data loading & cleaning
 
@@ -17,12 +17,10 @@ The goal is to provide actionable insights into which factors most strongly infl
 Raw data files have been removed from this repository due to size and licensing restrictions.
 You can download the original datasets from the official SAMHSA website:
 
-NSDUH 2023 – National Survey on Drug Use and Health
-Includes: .txt tab-delimited dataset and corresponding PDF codebook.
+🔹 NSDUH 2023 – National Survey on Drug Use and Health
+https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health/datafiles
+Includes .txt tab-delimited dataset and PDF codebook.
 
-TEDS-A 2022 – Treatment Episode Data Set: Admissions
-Includes: .csv dataset and detailed PDF codebook.
-
-After downloading, place the files in a local data/ directory before running the notebook.
-
-Please feel free to add input and make changes
+🔹 TEDS-A 2022 – Treatment Episode Data Set: Admissions
+https://www.samhsa.gov/data/data-we-collect/teds-treatment-episode-data-set/datafiles
+Includes .csv dataset and detailed PDF codebook.
